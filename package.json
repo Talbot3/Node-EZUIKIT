@@ -1,0 +1,28 @@
+{
+  "name": "EZUIKit-JavaScript",
+  "version": "1.0.0",
+  "description": "- [简介](#intro)\r - [获取UIKit JavaScript](#get)\r - [示例](#demo)\r - [直播](#live)\r - [预览、回放](#back)\r - [播放地址获取及EZOPEN协议说明](#ezopen)",
+  "main": "ezuikit-talk.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hikvision-Ezviz/EZUIKit-JavaScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hikvision-Ezviz/EZUIKit-JavaScript/issues"
+  },
+  "homepage": "https://github.com/Hikvision-Ezviz/EZUIKit-JavaScript#readme",
+  "dependencies": {
+    "koa": "^2.12.0",
+    "koa-static": "^5.0.0",
+    "puppeteer": "^3.2.0",
+    "puppeteer-recorder": "^1.0.7",
+    "wasm2js": "^0.2.0"
+  }
+}
