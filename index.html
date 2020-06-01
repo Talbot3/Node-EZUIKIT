@@ -676,15 +676,6 @@
         }
       }
       $(".voice-item").on('click', function (e) {
-        //   console.log("d点击voice-item",e,e.target,e.target.dataset.url);
-        if (padding) {
-          layer.msg("等待服务响应，请稍后重试")
-          return false;
-        }
-        if (countTimer) {
-          layer.msg("语音设备正忙，请稍后重试")
-          return false;
-        }
         var voiceUrl = e.target.dataset.url;
         var time = e.target.dataset.time;
         playListOfVoice(voiceUrl, time);
@@ -715,8 +706,8 @@
         type: 'POST',
         data: {
           accessToken: accessToken,
-          deviceSerial: deviceSerial,
-          channelNo: channelNo,
+          deviceSerial: "D07540877",
+          channelNo: 1,
           fileUrl: voiceUrl,
         },
         dataType: 'json',
